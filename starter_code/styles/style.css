@@ -1,0 +1,142 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+.alignright {
+float: right;
+padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+float: left;
+padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background: url(../images/header_bg.jpg), no-repeat center top rgb(134,141,157);
+   background-size: cover;
+}
+
+h1{
+
+  font-size: 24px;
+  color: white;
+  font-family: "open sans", open sans, sans-serif;
+  font-weight: extra bold;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+h2{
+
+  font-size: 24px;
+  color: white;
+  font-family: "open sans", open sans, sans-serif;
+  text-align: center;
+  font-weight: semi bold;
+  padding-top: 80px;
+
+}
+
+button{
+
+  background-color: #f9e42e;
+  color: #121212;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: "open sans", open sans, sans-serif;
+  font-weight: extra bold;
+  padding: 7px 20px;
+  margin-left: 575px;
+  margin-top: 50px;
+}
+
+
+h3{
+  font-family: "open sans", open sans, sans-serif;
+  font-weight: semi bold;
+  font-size: 20px;
+  color: #033048;
+  margin-left: 50px;
+  margin-top: 150px;
+
+}
+
+h4{
+
+  font-family: "open sans", open sans, sans-serif;
+  font-size: 13px;
+  margin-left: 54px;
+  margin-top: 10px;
+}
+
+ul{
+  font-family: "open sans", open sans, sans-serif;
+  font-size: 13px;
+  margin-left: 60px;
+  margin-top: 15px;
+
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+width: 100%;
+margin: auto;
+height: 500px;
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
